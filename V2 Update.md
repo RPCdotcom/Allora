@@ -1,11 +1,14 @@
 > Öncelikle baştan uyarımızı yapalım.
+
 > Güncelleme sonrası hata almanız gayet normal - RPC sorun çıkarabiliyor - cüzdanda tokenin yok diyebiliyor - boostrap gitti diyebiliyor ve dahası...
 
-> Gelelim güncellemeye şimdi biz Allora'da Edgenet'de bulunuyorduk. Hop Toparlanın V2'ye gidiyoz dendi . Tatile diye köye götürülen kamyonetin arkasında doluşmuş kuzenler gibi nodelerimizi güncellediğimiz için RPC  Osmanlının zorladığı viyana kapılarına döndü çöküyor hocam.
+> Gelelim güncellemeye şimdi biz Allora'da Edgenet'de bulunuyorduk. Hop Toparlanın V2'ye gidiyoz dendi . 
 
-> Yapacağumuz bazı işlemler var  : 
+> Tatile diye köye götürülen kamyonetin arkasında doluşmuş kuzenler gibi nodelerimizi güncellediğimiz için RPC  Osmanlının zorladığı viyana kapılarına döndü. çöküyor hocam. Yapacak birşey yok.
 
-> Containerleri temizlicez. env dosyası düzenlicez yeni RPC koyacaz.
+> Yapacağımız bazı işlemler var  : 
+
+> Containerleri temizlicez. docker-compose.yml dosyası düzenlicez yeni RPC koyacaz.
 
 > Sonra Containerleri yeniden şahlandıracağız.
 
