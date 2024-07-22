@@ -2,9 +2,9 @@
 
 > Güncelleme sonrası hata almanız gayet normal - RPC sorun çıkarabiliyor - cüzdanda tokenin yok diyebiliyor - boostrap gitti diyebiliyor ve dahası...
 
-> Gelelim güncellemeye şimdi biz Allora'da Edgenet'de bulunuyorduk. Hop Toparlanın V2'ye gidiyoz dendi . 
+> Gelelim güncellemeye şimdi biz Allora'da Edgenet'de bulunuyorduk. Hop Toparlanın V2'ye gidiyorz dendi .  Haliyle RPC'de değişti.
 
-> Tatile diye köye götürülen kamyonetin arkasında doluşmuş kuzenler gibi nodelerimizi güncellediğimiz için RPC  Osmanlının zorladığı viyana kapılarına döndü. çöküyor hocam. Yapacak birşey yok.
+> RPC Osmanlının zorladığı viyana kapılarına döndü. çöküyor hocam. Yapacak birşey yok.
 
 > Yapacağımız bazı işlemler var  : 
 
@@ -74,16 +74,6 @@ nano docker-compose.yml
 
 ![image](https://github.com/user-attachments/assets/caa445b0-a9d2-4cf0-8138-c0b2bb8ef40b)
 
-
-```console
-          --boot-nodes=/ip4/172.22.0.100/tcp/9010/p2p/head-id \
-          --topic=allora-topic-1-worker \
-          --allora-chain-key-name=testkey \
-          --allora-chain-restore-mnemonic='WALLET_SEED_PHRASE' \
-          --allora-node-rpc-address=https://allora-rpc.testnet-1.testnet.allora.network/ \
-          --allora-chain-topic-id=1
-```
-
 > Yeni RPC : 
 
 ```console
@@ -123,6 +113,4 @@ docker compose up -d
 
 > Sonrasında yeniden loglarınızı kontrol edip - doğru çalıştığından emin olun.
 
-
-
-Sonrasında 
+> Dostlarınızla yardım edin / yardımlaşın CT. Bilgi paylaştıkça çoğalır.
