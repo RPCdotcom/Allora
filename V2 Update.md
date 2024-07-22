@@ -8,11 +8,13 @@
 
 > Yapacağımız bazı işlemler var  : 
 
-> Containerleri temizlicez. docker-compose.yml dosyası düzenlicez yeni RPC koyacaz.
+> Containerleri temizliyeceğiz. docker-compose.yml dosyası düzenleyeceğiz. yeni RPC yerleştireceğiz..
 
 > Sonra Containerleri yeniden şahlandıracağız.
 
-> Containerleri temizlemek ve işlemleri yapmak için 2 taraf var. Ruesin Rehberden CD Komutunu kullanıp ana dizinde `basic-coin-prediction-node` dosyan bulunuyor yada bu komutu atladın bu dosya `Allora-Chain` Dosyası içerisinde bulunuyor.
+> Containerleri temizlemek ve işlemleri yapmak için 2 taraf var. 
+
+> Ruesin Rehberden CD Komutunu kullanıp ana dizinde `basic-coin-prediction-node` dosyan bulunuyor yada bu komutu atladın bu dosya `Allora-Chain` Dosyası içerisinde bulunuyor.
 
 > Bunu Nasıl Anlarım ? ls komutunu terminale yapıştırdın. Bakıyorsun dizinlere eğer `basic-coin-prediction-node` yoksa Allora-Chain içerisinde.
 
@@ -96,3 +98,31 @@ https://allora-rpc.testnet-1.testnet.allora.network/
 docker compose build
 docker compose up -d
 ```
+
+Logları kontrol etmeyi biliyorsunuz. 
+
+Görmemiz gereken loglarda şöyle olmalı : 
+
+![image](https://github.com/user-attachments/assets/530bdbe5-530b-4202-b7e1-c889b0c683bc)
+
+> Baktın token yok hatası veriyor : 
+
+> Faucet üzerinden token al - şu ara sorunlu sıkıntılar çıkarabiliyor. Tokenin cüzdana geldiğinden emin olun. 
+
+> Faucet : https://faucet.testnet-1.testnet.allora.network/
+
+> Sonrasında yine dizin içerisinde durdurup ayağa kaldırın : 
+
+```console
+docker compose down
+```
+
+```console
+docker compose up -d
+```
+
+> Sonrasında yeniden loglarınızı kontrol edip - doğru çalıştığından emin olun.
+
+
+
+Sonrasında 
