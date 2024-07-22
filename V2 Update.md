@@ -67,6 +67,9 @@ nano docker-compose.yml
 
 > Dosya İçerisinde Tam burada "--allora-node-rpc-address=" sizde eski RPC yer alıcaktır. Eskiyi silip yenisini yapıştırın.
 
+![image](https://github.com/user-attachments/assets/caa445b0-a9d2-4cf0-8138-c0b2bb8ef40b)
+
+
 ```console
           --boot-nodes=/ip4/172.22.0.100/tcp/9010/p2p/head-id \
           --topic=allora-topic-1-worker \
@@ -80,4 +83,13 @@ nano docker-compose.yml
 
 ```console
 https://allora-rpc.testnet-1.testnet.allora.network/
+```
+
+> CTRL X - CTRL Y - Enter ile kaydedin.
+
+> Ardından yeniden ayağa kaldıralım. 
+
+```console
+docker compose build
+docker compose up -d
 ```
